@@ -67,25 +67,25 @@ That single gesture — tilting the object toward the light to find the mark —
 
 ## Brand Book Structure
 
-The identity is organized as a maison, not a collection of disconnected guidelines.
+The identity is organized as a maison, not a collection of disconnected guidelines — twenty-two chapters across six parts, each earning its place before the next is written.
 
 **I. FOUNDATION**
 01 — Cover · 02 — Table of Contents · 03 — Brand Overview · 04 — Brand Strategy
 
 **II. VOICE**
-05 — Tone of Voice
+05 — Tone of Voice · 18 — Communication Principles
 
 **III. IDENTITY**
-06 — Visual Identity · 07 — Typography · 08 — Color Palette
+06 — Visual Identity · 07 — Logo System · 08 — Typography · 09 — Color Palette
 
 **IV. EXPRESSION**
-09 — Photography Direction · 10 — Graphic Language · 11 — Packaging Concepts
+10 — Photography Direction · 11 — Graphic Language · 12 — Packaging Concepts · 13 — Materials & Finishes · 14 — Product Experience · 16 — Craftsmanship & Manufacturing Philosophy
 
 **V. PRESENCE**
-12 — Website Creative Direction · 13 — Social Media Direction · 14 — Brand Applications
+15 — Digital Experience · 19 — Digital Presence
 
 **VI. CONVICTION**
-15 — Brand Principles · 16 — Brand Manifesto
+17 — Ownership & Legacy · 20 — Judgment · 21 — The Maison · 22 — The Promise
 
 ---
 
