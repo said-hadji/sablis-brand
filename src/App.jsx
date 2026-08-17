@@ -1,5 +1,8 @@
+import { useApp } from "./hooks/useApp";
+
 function App() {
-  return console.log("App");
+  const { name } = useApp()
+  return console.log(name);
 }
 
 export default App;
