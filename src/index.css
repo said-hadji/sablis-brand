@@ -1,1 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap");
 @import "tailwindcss";
+
+/*
+ * SABLIS — Design System
+ *
+ * A restrained digital foundation derived from the
+ * SABLIS brand philosophy: material, permanence,
+ * precision, and quiet hierarchy.
+ */
+
+@theme {
+  /* ==================================================
+     COLOR — FOUNDATION
+     ================================================== */
+
+  /* Primary surfaces and environmental tones */
+  --color-sablis-graphite: #1c1b19;
+  --color-sablis-surface: #242321;
+  --color-sablis-paper: #e4e0d8;
+
+  /* ==================================================
+     COLOR — TYPOGRAPHY
+     ================================================== */
+
+  /* Text hierarchy for dark and light surfaces */
+  --color-sablis-primary: #e7e4de;
+  --color-sablis-secondary: #a8a49c;
+  --color-sablis-muted: #77736c;
+  --color-sablis-on-paper: #252421;
+
+  /* ==================================================
+     COLOR — STRUCTURE
+     ================================================== */
+
+  /* Borders and subtle structural separation */
+  --color-sablis-border: #393733;
+  --color-sablis-border-subtle: #2c2b28;
+
+  /* ==================================================
+     TYPOGRAPHY — FONTS
+     ================================================== */
+
+  /* Editorial / display typography */
+  --font-display: "Cormorant Garamond", serif;
+
+  /* Interface / body typography */
+  --font-sans: "Inter", sans-serif;
+}
+
+/*
+ * SABLIS — Layout Utilities
+ *
+ * Small composition utilities for recurring
+ * layout patterns. Use these only when the
+ * pattern is genuinely repeated.
+ */
+
+@layer utilities {
+  /* Flex — center on both axes */
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  /* Flex — center on the cross axis */
+  .flex-align {
+    @apply flex items-center;
+  }
+
+  /* Flex — center on the main axis */
+  .flex-justify {
+    @apply flex justify-center;
+  }
+
+  /* Column flex — center on both axes */
+  .flex-col-center {
+    @apply flex flex-col items-center justify-center;
+  }
+
+  /* Column flex — center on the cross axis */
+  .flex-col-align {
+    @apply flex flex-col items-center;
+  }
+
+  /* Column flex — center on the main axis */
+  .flex-col-justify {
+    @apply flex flex-col justify-center;
+  }
+
+  /* Fill the viewport */
+  .fill-screen {
+    @apply h-dvh w-full;
+  }
+
+  /* Fill the parent container */
+  .fill-parent {
+    @apply h-full w-full;
+  }
+}
