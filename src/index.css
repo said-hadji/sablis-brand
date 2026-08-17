@@ -62,6 +62,11 @@
     @apply flex items-center justify-center;
   }
 
+  /* Flex — distribute items with space between */
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+
   /* Flex — center on the cross axis */
   .flex-align {
     @apply flex items-center;
@@ -95,5 +100,10 @@
   /* Fill the parent container */
   .fill-parent {
     @apply h-full w-full;
+  }
+
+  /* Cursor — indicate an interactive element */
+  .cp {
+    @apply cursor-pointer;
   }
 }

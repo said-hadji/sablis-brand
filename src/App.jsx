@@ -1,8 +1,11 @@
-import { useApp } from "./hooks/useApp";
+import { Navbar } from "./navbar/Navbar";
 
 function App() {
-  const { name } = useApp()
-  return console.log(name);
+  return (
+    <div className="fill-screen bg-sablis-graphite">
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
