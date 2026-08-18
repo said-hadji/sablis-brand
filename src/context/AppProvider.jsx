@@ -1,7 +1,12 @@
+import { useState } from "react";
 import { AppContext } from "./AppContext";
 
 export function AppProvider({ children }) {
-  const name = "SABLIS";
+  const [isMenu, setIsMenu] = useState(false);
 
-  return <AppContext.Provider value={{ name }}>{children}</AppContext.Provider>;
+  return (
+    <AppContext.Provider value={{ isMenu, setIsMenu }}>
+      {children}
+    </AppContext.Provider>
+  );
 }
