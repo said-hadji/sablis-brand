@@ -1,5 +1,6 @@
 import AuthButton from "./AuthButton";
 import MenuButton from "./MenuButton";
+import MenuContainer from "./menu/MenuContainer";
 
 export default function Navbar() {
   return (
@@ -10,7 +11,7 @@ export default function Navbar() {
         <AuthButton />
       </div>
 
-      <div className={`absolute top-full left-0 z-50 w-80 h-screen bg-sablis-surface border border-sablis-border`}></div>
+      <MenuContainer />
     </div>
   );
 }
