@@ -1,12 +1,15 @@
 import MenuIcon from "../ui/icons/MenuIcon";
+import useApp from "../hooks/useApp";
 
 export default function MenuButton() {
+  const { isMenu, setIsMenu } = useApp();
+
   return (
-    <button className={`flex-align gap-1 cp`}>
-      <MenuIcon
-        strokeWidth={1.2}
-        className={`text-sablis-secondary hover:text-sablis-primary`}
-      />
+    <button
+      onClick={() => setIsMenu(!isMenu)}
+      className={`w-fit ${isMenu ? "h-5.5" : ""} cp`}
+    >
+      <MenuIcon />
     </button>
   );
 }
