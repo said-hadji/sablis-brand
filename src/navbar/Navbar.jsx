@@ -1,7 +1,7 @@
-import { AuthButton } from "./AuthButton";
-import { MenuButton } from "./MenuButton";
+import AuthButton from "./AuthButton";
+import MenuButton from "./MenuButton";
 
-export function Navbar() {
+export default function Navbar() {
   return (
     <div>
       <div className={`w-full flex-between px-10 py-7`}>

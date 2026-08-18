@@ -1,4 +1,4 @@
-export function MenuIcon({ size = 24, strokeWidth = 1, className }) {
+export default function MenuIcon({ size = 24, strokeWidth = 1, className }) {
   return (
     <svg
       width={size}

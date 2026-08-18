@@ -1,4 +1,4 @@
-export function AuthIcon({ size = 22, strokeWidth = 1, className }) {
+export default function AuthIcon({ size = 22, strokeWidth = 1, className }) {
   return (
     <svg
       width={size}
