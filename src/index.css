@@ -57,58 +57,51 @@
  */
 
 @layer utilities {
-  /* Flex — center on both axes */
   .flex-center {
     @apply flex items-center justify-center;
   }
 
-  /* Flex — distribute items with space between */
   .flex-between {
     @apply flex items-center justify-between;
   }
 
-  /* Flex — center on the cross axis */
   .flex-align {
     @apply flex items-center;
   }
 
-  /* Flex — center on the main axis */
   .flex-justify {
     @apply flex justify-center;
   }
 
-  /* Column flex — center on both axes */
   .flex-col-center {
     @apply flex flex-col items-center justify-center;
   }
 
-  /* Column flex — center on the cross axis */
   .flex-col-align {
     @apply flex flex-col items-center;
   }
 
-  /* Column flex — center on the main axis */
   .flex-col-justify {
     @apply flex flex-col justify-center;
   }
 
-  /* Fill the viewport */
   .fill-screen {
     @apply h-dvh w-full;
   }
 
-  /* Fill the parent container */
   .fill-parent {
     @apply h-full w-full;
   }
 
-  /* Cursor — indicate an interactive element */
   .cp {
     @apply cursor-pointer;
   }
 
-  /* Fixed to the top of the viewport */
   .fixed-top {
     @apply fixed top-0 inset-x-0 z-50;
+  }
+
+  .below-parent {
+    @apply absolute top-full left-0 z-50;
   }
 }
