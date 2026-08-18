@@ -106,4 +106,9 @@
   .cp {
     @apply cursor-pointer;
   }
+
+  /* Fixed to the top of the viewport */
+  .fixed-top {
+    @apply fixed top-0 inset-x-0 z-50;
+  }
 }
